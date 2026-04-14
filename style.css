@@ -1,0 +1,73 @@
+body {
+    max-width: 1440px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    border-radius: 10px;
+    height: 59vh;
+    width: 530px;
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+.card-image {
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-description {
+    padding: 20px;
+}
+
+.type {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    font-size: 11px;
+    letter-spacing: 0.37em;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    font-weight: 660;
+    font-size: 1.8rem;
+    color: hsl(212, 21%, 14%);
+    margin-top: 15px;
+    line-height: 1em;
+    padding-right: 10px;
+    margin-bottom: 0px;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 6px;
+    padding-right: 10px;
+    line-height: 1.65em;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
